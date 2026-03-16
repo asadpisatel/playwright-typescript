@@ -1,0 +1,328 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - text: View the
+    - link "Documentation" [ref=e4] [cursor=pointer]:
+      - /url: https://testsmith-io.github.io/practice-software-testing/#/
+    - text: for this application.
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]: Practice Black Box Testing & Bug Hunting
+      - button "Testing Guide" [ref=e9] [cursor=pointer]
+      - button "🐛 Bug Hunting" [ref=e10] [cursor=pointer]
+    - navigation [ref=e11]:
+      - generic [ref=e12]:
+        - link "Practice Software Testing - Toolshop" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+        - generic [ref=e32]:
+          - menubar "Main menu" [ref=e33]:
+            - menuitem "Home" [ref=e34]:
+              - link "Home" [ref=e35] [cursor=pointer]:
+                - /url: /
+            - menuitem "Categories" [ref=e36]:
+              - button "Categories" [ref=e37] [cursor=pointer]
+            - menuitem "Contact" [ref=e38]:
+              - link "Contact" [ref=e39] [cursor=pointer]:
+                - /url: /contact
+            - menuitem "Jack Howe" [ref=e40]:
+              - button "Jack Howe" [ref=e41] [cursor=pointer]
+          - button [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+            - text: EN
+  - generic [ref=e48]:
+    - generic [ref=e49]:
+      - paragraph [ref=e50]:
+        - img "Banner" [ref=e51]
+      - separator [ref=e52]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - heading "Sort" [level=4] [ref=e55]:
+          - img [ref=e57]
+          - text: Sort
+        - separator [ref=e59]
+        - combobox "sort" [ref=e62]:
+          - option
+          - option "Name (A - Z)"
+          - option "Name (Z - A)" [selected]
+          - option "Price (High - Low)"
+          - option "Price (Low - High)"
+          - option "CO₂ Rating (A - E)"
+          - option "CO₂ Rating (E - A)"
+        - heading "Price Range" [level=4] [ref=e63]:
+          - img [ref=e65]
+          - text: Price Range
+        - separator [ref=e67]
+        - generic "ngx-slider" [ref=e69]:
+          - slider "ngx-slider" [ref=e74] [cursor=pointer]
+          - slider "ngx-slider-max" [ref=e75] [cursor=pointer]
+          - generic [ref=e76]: "0"
+          - generic [ref=e77]: "200"
+          - generic [ref=e78]: "1"
+          - generic [ref=e79]: "100"
+        - heading "Search" [level=4] [ref=e81]:
+          - img [ref=e83]
+          - text: Search
+        - separator [ref=e85]
+        - generic [ref=e87]:
+          - generic [ref=e88]: Search
+          - textbox "Search" [ref=e89]
+          - button "X" [ref=e90] [cursor=pointer]
+          - button "Search" [ref=e91] [cursor=pointer]
+        - heading "Filters" [level=4] [ref=e92]:
+          - img [ref=e94]
+          - text: Filters
+        - separator [ref=e96]
+        - heading "By category:" [level=4] [ref=e97]
+        - group "Categories" [ref=e98]:
+          - generic [ref=e99]: Categories
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - checkbox "Hand Tools" [ref=e102]
+              - text: Hand Tools
+            - list [ref=e103]:
+              - group "Categories" [ref=e104]:
+                - generic [ref=e105]: Categories
+                - generic [ref=e107]:
+                  - checkbox "Hammer" [ref=e108]
+                  - text: Hammer
+                - generic [ref=e110]:
+                  - checkbox "Hand Saw" [ref=e111]
+                  - text: Hand Saw
+                - generic [ref=e113]:
+                  - checkbox "Wrench" [ref=e114]
+                  - text: Wrench
+                - generic [ref=e116]:
+                  - checkbox "Screwdriver" [ref=e117]
+                  - text: Screwdriver
+                - generic [ref=e119]:
+                  - checkbox "Pliers" [ref=e120]
+                  - text: Pliers
+                - generic [ref=e122]:
+                  - checkbox "Chisels" [ref=e123]
+                  - text: Chisels
+                - generic [ref=e125]:
+                  - checkbox "Measures" [ref=e126]
+                  - text: Measures
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - checkbox "Power Tools" [ref=e129]
+              - text: Power Tools
+            - list [ref=e130]:
+              - group "Categories" [ref=e131]:
+                - generic [ref=e132]: Categories
+                - generic [ref=e134]:
+                  - checkbox "Grinder" [ref=e135]
+                  - text: Grinder
+                - generic [ref=e137]:
+                  - checkbox "Sander" [ref=e138]
+                  - text: Sander
+                - generic [ref=e140]:
+                  - checkbox "Saw" [ref=e141]
+                  - text: Saw
+                - generic [ref=e143]:
+                  - checkbox "Drill" [ref=e144]
+                  - text: Drill
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - checkbox "Other" [ref=e147]
+              - text: Other
+            - list [ref=e148]:
+              - group "Categories" [ref=e149]:
+                - generic [ref=e150]: Categories
+                - generic [ref=e152]:
+                  - checkbox "Tool Belts" [ref=e153]
+                  - text: Tool Belts
+                - generic [ref=e155]:
+                  - checkbox "Storage Solutions" [ref=e156]
+                  - text: Storage Solutions
+                - generic [ref=e158]:
+                  - checkbox "Workbench" [ref=e159]
+                  - text: Workbench
+                - generic [ref=e161]:
+                  - checkbox "Safety Gear" [ref=e162]
+                  - text: Safety Gear
+                - generic [ref=e164]:
+                  - checkbox "Fasteners" [ref=e165]
+                  - text: Fasteners
+        - heading "By brand:" [level=4] [ref=e167]
+        - group "Brands" [ref=e168]:
+          - generic [ref=e169]: Brands
+          - generic [ref=e171]:
+            - checkbox "ForgeFlex Tools" [ref=e172]
+            - text: ForgeFlex Tools
+          - generic [ref=e174]:
+            - checkbox "MightyCraft Hardware" [ref=e175]
+            - text: MightyCraft Hardware
+        - heading "Sustainability:" [level=4] [ref=e177]
+        - group "Eco-Friendly Products" [ref=e178]:
+          - generic [ref=e179]: Eco-Friendly Products
+          - generic [ref=e181]:
+            - checkbox "Show only eco-friendly products" [ref=e182]
+            - text: Show only eco-friendly products
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - 'link "Wood Saw ECO Wood Saw CO₂: A B C D E $12.18" [ref=e185] [cursor=pointer]':
+            - /url: /product/01KKV1DKFRKDZ07CYDNMFSNNXR
+            - generic [ref=e186]:
+              - img "Wood Saw" [ref=e187]
+              - generic [ref=e188]:
+                - img [ref=e190]
+                - text: ECO
+            - generic [ref=e192]:
+              - heading "Wood Saw" [level=5] [ref=e193]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e194]:
+                - text: "CO₂:"
+                - generic [ref=e195]: A
+                - generic [ref=e196]: B
+                - generic [ref=e197]: C
+                - generic [ref=e198]: D
+                - generic [ref=e199]: E
+            - generic [ref=e201]: $12.18
+          - 'link "Wood Carving Chisels Wood Carving Chisels CO₂: A B C D E $45.23" [ref=e202] [cursor=pointer]':
+            - /url: /product/01KKV1DKG99KGQ477JTPNTTNEP
+            - img "Wood Carving Chisels" [ref=e204]
+            - generic [ref=e205]:
+              - heading "Wood Carving Chisels" [level=5] [ref=e206]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e207]:
+                - text: "CO₂:"
+                - generic [ref=e208]: A
+                - generic [ref=e209]: B
+                - generic [ref=e210]: C
+                - generic [ref=e211]: D
+                - generic [ref=e212]: E
+            - generic [ref=e214]: $45.23
+          - 'link "Washers Washers CO₂: A B C D E $3.55" [ref=e215] [cursor=pointer]':
+            - /url: /product/01KKV1DKH7HPR5FQVW04KDH7GX
+            - img "Washers" [ref=e217]
+            - generic [ref=e218]:
+              - heading "Washers" [level=5] [ref=e219]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e220]:
+                - text: "CO₂:"
+                - generic [ref=e221]: A
+                - generic [ref=e222]: B
+                - generic [ref=e223]: C
+                - generic [ref=e224]: D
+                - generic [ref=e225]: E
+            - generic [ref=e227]: $3.55
+          - 'link "Tool Cabinet ECO Tool Cabinet CO₂: A B C D E $86.71" [ref=e228] [cursor=pointer]':
+            - /url: /product/01KKV1DKHAXJ0M8W23T773VANJ
+            - generic [ref=e229]:
+              - img "Tool Cabinet" [ref=e230]
+              - generic [ref=e231]:
+                - img [ref=e233]
+                - text: ECO
+            - generic [ref=e235]:
+              - heading "Tool Cabinet" [level=5] [ref=e236]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e237]:
+                - text: "CO₂:"
+                - generic [ref=e238]: A
+                - generic [ref=e239]: B
+                - generic [ref=e240]: C
+                - generic [ref=e241]: D
+                - generic [ref=e242]: E
+            - generic [ref=e244]: $86.71
+          - 'link "Thor Hammer Thor Hammer CO₂: A B C D E $11.14" [ref=e245] [cursor=pointer]':
+            - /url: /product/01KKV1DKFGRTNT45S4RK3Y7G3F
+            - img "Thor Hammer" [ref=e247]
+            - generic [ref=e248]:
+              - heading "Thor Hammer" [level=5] [ref=e249]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e250]:
+                - text: "CO₂:"
+                - generic [ref=e251]: A
+                - generic [ref=e252]: B
+                - generic [ref=e253]: C
+                - generic [ref=e254]: D
+                - generic [ref=e255]: E
+            - generic [ref=e257]: $11.14
+          - 'link "Tape Measure 7.5m Tape Measure 7.5m CO₂: A B C D E $7.23" [ref=e258] [cursor=pointer]':
+            - /url: /product/01KKV1DKGD7Q0ZEPS6H1CSTR9S
+            - img "Tape Measure 7.5m" [ref=e260]
+            - generic [ref=e261]:
+              - heading "Tape Measure 7.5m" [level=5] [ref=e262]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e263]:
+                - text: "CO₂:"
+                - generic [ref=e264]: A
+                - generic [ref=e265]: B
+                - generic [ref=e266]: C
+                - generic [ref=e267]: D
+                - generic [ref=e268]: E
+            - generic [ref=e270]: $7.23
+          - 'link "Tape Measure 5m Tape Measure 5m CO₂: A B C D E $12.91" [ref=e271] [cursor=pointer]':
+            - /url: /product/01KKV1DKGHT6RYRRAXH3KXTKW0
+            - img "Tape Measure 5m" [ref=e273]
+            - generic [ref=e274]:
+              - heading "Tape Measure 5m" [level=5] [ref=e275]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e276]:
+                - text: "CO₂:"
+                - generic [ref=e277]: A
+                - generic [ref=e278]: B
+                - generic [ref=e279]: C
+                - generic [ref=e280]: D
+                - generic [ref=e281]: E
+            - generic [ref=e283]: $12.91
+          - 'link "Swiss Woodcarving Chisels Swiss Woodcarving Chisels CO₂: A B C D E $22.96" [ref=e284] [cursor=pointer]':
+            - /url: /product/01KKV1DKGBZKZ9MQT3KPDEY6AP
+            - img "Swiss Woodcarving Chisels" [ref=e286]
+            - generic [ref=e287]:
+              - heading "Swiss Woodcarving Chisels" [level=5] [ref=e288]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e289]:
+                - text: "CO₂:"
+                - generic [ref=e290]: A
+                - generic [ref=e291]: B
+                - generic [ref=e292]: C
+                - generic [ref=e293]: D
+                - generic [ref=e294]: E
+            - generic [ref=e296]: $22.96
+          - 'link "Super-thin Protection Gloves ECO Super-thin Protection Gloves CO₂: A B C D E $38.45" [ref=e297] [cursor=pointer]':
+            - /url: /product/01KKV1DKGTVWYPFFGH7TK4HHQ5
+            - generic [ref=e298]:
+              - img "Super-thin Protection Gloves" [ref=e299]
+              - generic [ref=e300]:
+                - img [ref=e302]
+                - text: ECO
+            - generic [ref=e304]:
+              - heading "Super-thin Protection Gloves" [level=5] [ref=e305]
+              - generic "A = most environmentally friendly, E = higher environmental impact" [ref=e306]:
+                - text: "CO₂:"
+                - generic [ref=e307]: A
+                - generic [ref=e308]: B
+                - generic [ref=e309]: C
+                - generic [ref=e310]: D
+                - generic [ref=e311]: E
+            - generic [ref=e313]: $38.45
+        - navigation [ref=e316]:
+          - list [ref=e317]:
+            - listitem [ref=e318]:
+              - button "Previous": «
+            - listitem [ref=e319]:
+              - button "Page-1" [ref=e320] [cursor=pointer]: "1"
+            - listitem [ref=e321]:
+              - button "Page-2" [ref=e322] [cursor=pointer]: "2"
+            - listitem [ref=e323]:
+              - button "Page-3" [ref=e324] [cursor=pointer]: "3"
+            - listitem [ref=e325]:
+              - button "Page-4" [ref=e326] [cursor=pointer]: "4"
+            - listitem [ref=e327]:
+              - button "Page-5" [ref=e328] [cursor=pointer]: "5"
+            - listitem [ref=e329]:
+              - button "Next" [ref=e330] [cursor=pointer]: »
+  - paragraph [ref=e333]:
+    - text: This is a DEMO application (
+    - link "GitHub repo" [ref=e334] [cursor=pointer]:
+      - /url: https://github.com/testsmith-io/practice-software-testing
+    - text: ), used for software testing training purpose. |
+    - link "Privacy Policy" [ref=e335] [cursor=pointer]:
+      - /url: /privacy
+    - text: "| Banner photo by"
+    - link "Barn Images" [ref=e336] [cursor=pointer]:
+      - /url: https://unsplash.com/@barnimages
+    - text: "on"
+    - link "Unsplash" [ref=e337] [cursor=pointer]:
+      - /url: https://unsplash.com/photos/t5YUoHW6zRo
+    - text: .
+  - button "Open chat" [ref=e339] [cursor=pointer]:
+    - img [ref=e340]
+```
